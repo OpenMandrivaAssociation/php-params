@@ -10,6 +10,11 @@ Group:		Development/PHP
 License:	PHP License
 URL:		https://pecl.php.net/package/params/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
