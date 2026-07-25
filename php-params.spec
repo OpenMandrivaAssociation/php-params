@@ -5,7 +5,7 @@
 Summary:	Parameter Parsing Utility for PHP
 Name:		php-%{modname}
 Version:	1.0
-Release:	%mkrel 12
+Release:	13
 Group:		Development/PHP
 License:	PHP License
 URL:		https://pecl.php.net/package/params/
